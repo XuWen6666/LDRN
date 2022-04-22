@@ -96,7 +96,7 @@ def valid(write=False):
             count = count + 1
             _input, target = batch[0].to(device), batch[1].to(device)
 
-            prediction,weight = model(_input)
+            prediction = model(_input)
 
             psnr = utils.calc_psnr(prediction, target, opt.scale, 1)
             ssim = utils.calc_ssim(prediction,target)

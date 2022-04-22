@@ -2,7 +2,7 @@
 
 This repository is implementation of the [ **Learning Local Distribution for Extremely Efficient Single-Image Super-Resolution** ]()
 
-![image-20220421205419523](C:\Users\XW\AppData\Roaming\Typora\typora-user-images\image-20220421205419523.png)
+![image-20220421205419523](./img/Model1.png)
 
 ## Requirements
 
@@ -55,9 +55,9 @@ python train.py --line_weight 12 1 --scale 2 --pre_train "weight/LDRN_X2_bestpsn
 
 ### x3
 
-![image-20220422215211392](C:\Users\XW\AppData\Roaming\Typora\typora-user-images\image-20220422215211392.png)
+![image-20220422215211392](./img/x3.jpg)
 
 ### x4
 
-![image-20220422215238259](C:\Users\XW\AppData\Roaming\Typora\typora-user-images\image-20220422215238259.png)
+![image-20220422215238259](./img/x4.jpg)
 
